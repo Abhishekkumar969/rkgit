@@ -1,4 +1,4 @@
-    @media (min-width: 768px) {
+    @media (min-width: 1200px) {
         .header .navbar-brand {
             padding-left: 0;
             width: 6rem;
@@ -141,6 +141,11 @@
         }
         .heading {
             padding-bottom: 0px;
+        }
+        #logotext {
+            margin: 15px 0px 0px 56px;
+            width: 33rem;
+            font-size: 15px;
         }
     }
     

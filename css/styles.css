@@ -266,13 +266,13 @@ a:hover {
     padding: 0;
 }
 
-.page-section h1 {
+.page-section h2 {
     font-size: 3.5em;
-    margin: 90px 0 30px;
+    margin: 30px 0 30px;
     line-height: 1.2em;
 }
 
-.page-section h1 span {
+.page-section h2 span {
     font-weight: 200;
 }
 
@@ -721,6 +721,19 @@ footer ul li {
 }
 
 
+/* #logotext {
+    margin: 20px 0px 0px 55px;
+    width: 26rem;
+    font-size: 15px;
+} */
+
+#logotext {
+    margin: 15px 0px 0px 53px;
+    width: 33rem;
+    font-size: 19px;
+}
+
+
 /* **************** fun **************** */
 
 body {
@@ -728,7 +741,7 @@ body {
     padding: 0px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .screen {
         display: none;
     }
@@ -736,11 +749,12 @@ body {
 
 .screen {
     background-color: #5286b6;
+    height: 110vh;
 }
 
 .bg img {
-    width: 120vw;
-    height: 110vh;
+    width: 100vw;
+    height: 70vh;
     filter: brightness(1);
     left: -70vw;
     z-index: 0;
@@ -752,15 +766,9 @@ body {
     top: 20vh !important;
 }
 
-
-/* .rock1 img {
-    width: 40%;
-    filter: brightness(0.5);
-} */
-
 .rock1 img {
-    width: 110vw;
-    height: 600px;
+    width: 105vw;
+    height: 650px;
     left: -12.5vw;
     top: -8vh;
     z-index: 1;
@@ -768,44 +776,45 @@ body {
     filter: brightness(0.9);
 }
 
-
-/* .left_cld img {
-    width: 35vw;
+.left_cld img {
+    width: 33vw;
     height: 20vh;
     position: absolute;
-    left: 0vw;
-    top: 0vh;
+    left: 15vw;
+    top: -5vh;
     z-index: 0;
     filter: brightness(0.9);
-} */
-
-.mid {
-    left: 0px;
-    width: 230vh;
-    left: -50px !important;
-    bottom: -9px !important;
-    top: 100vh !important;
 }
 
-.mid img {
-    height: 100px;
-    width: 120%;
+.mid {
+    /* height: 700px;
+    width: 330vh; */
+    left: 760px !important;
+    /* bottom: -1px !important; */
+    top: 72vh !important;
+}
+
+.mid h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    /* height: 300px;
+    width: 120%; */
     z-index: 1;
-    left: -20px;
-    top: 12vh !important;
+    background-color: rgba(0, 0, 0, 0.7);
     filter: brightness(0.8);
 }
 
 .right_cld {
     right: 0px !important;
-    bottom: -200px !important;
+    bottom: -210px !important;
     top: 0px !important;
     left: unset !important;
 }
 
 .right_cld img {
     width: 390px;
-    height: 40vh;
+    height: 35vh;
     z-index: 1;
     filter: brightness(0.9);
 }
