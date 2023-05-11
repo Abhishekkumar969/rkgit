@@ -1,0 +1,196 @@
+    @media (min-width: 768px) {
+        .header .navbar-brand {
+            padding-left: 0;
+            width: 6rem;
+            height: 6rem;
+        }
+        .navbar-nav {
+            float: right;
+        }
+        #logotext {
+            margin: 20px 0px 0px 74px;
+            width: 32rem;
+            font-size: 17px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .banner-container {
+            background-size: contain;
+        }
+        .team-member .member-img img {
+            max-width: 100%;
+        }
+        .banner-container {
+            width: 100%;
+            max-height: 432px;
+        }
+        .bannerOverlay {
+            max-height: 432px;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            font-size: 1.1em;
+            margin: 19px 3px;
+        }
+        .da-slider {
+            width: 100%;
+            min-width: initial;
+            height: 400px;
+            margin: 0px auto;
+        }
+        .header .navbar-nav>li>a {
+            padding: 25px 12px;
+        }
+        .portfolio-item:hover .folio-info {
+            top: 0px;
+        }
+        .portfolio-item .portfolio-desc .folio-info {
+            padding: 0px;
+        }
+        .portfolio-item .portfolio-desc .folio-info h5 {
+            font-size: 1em;
+        }
+        .carousel-caption h1 {
+            font-size: 29px;
+        }
+        .carousel-caption h3 {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width:760px) {
+        .header .navbar-nav>li>a {
+            padding: 7px 12px;
+            font-size: 14px;
+        }
+        .navbar-inverse .navbar-collapse,
+        .navbar-inverse .navbar-form {
+            border-color: #A8A8A8;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            font-size: 1.1em;
+            margin: 4px 3px;
+        }
+        .navbar-header {
+            margin: 6px 0;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .banner-container {
+            width: 100%;
+            background-size: contain;
+            height: 270px;
+        }
+        .bannerOverlay {
+            height: 270px;
+        }
+        .da-slider {
+            width: 100%;
+            min-width: initial;
+            height: 205px;
+            position: relative;
+            margin: 0 auto;
+        }
+        .da-slide h2 {
+            font-size: 40px;
+            text-align: center;
+            width: initial;
+            top: 10px;
+        }
+        .da-slide p {
+            width: 65%;
+            top: 65px;
+            height: 50px;
+        }
+        .carousel-caption h1 {
+            font-size: 24px;
+        }
+        .carousel-caption h3 {
+            font-size: 16px;
+        }
+        .page-section h1 {
+            font-size: 3em;
+        }
+        .page-section h2 {
+            font-size: 2em;
+        }
+        .page-section p {
+            font-size: 1em;
+            margin: 0 0 20px;
+        }
+        .portfolio-item .portfolio-desc .folio-info h5 {
+            font-size: 11px;
+        }
+        .copyRights,
+        .webThemez {
+            text-align: center;
+            display: block;
+            width: 100%;
+            margin: 2px 0 4px 0;
+        }
+        .actionPanel {
+            padding: 12px 0;
+        }
+        .actionPanel h3 {
+            margin: 0px;
+            font-size: 16px;
+        }
+        .page-section {
+            padding: 15px 0;
+        }
+        .heading {
+            padding-bottom: 0px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .banner-container {
+            width: 100%;
+            background-size: contain;
+            height: 180px;
+        }
+        .bannerOverlay {
+            height: 180px;
+        }
+        .carousel-caption h3 {
+            display: none;
+        }
+        .carousel-caption h1 {
+            font-size: 18px;
+        }
+        .da-slider {
+            width: 100%;
+            min-width: initial;
+            height: 145px;
+            position: relative;
+            margin: 0 auto;
+        }
+        .da-slide h2 {
+            font-size: 30px;
+            text-align: center;
+            width: initial;
+            top: 10px;
+        }
+        .da-dots {
+            bottom: 2px;
+        }
+        .grid .text-content {
+            padding-left: 29%;
+            padding-right: 2%;
+        }
+        .portfolio-item:hover .folio-info {
+            top: 0px;
+        }
+        .portfolio-item .portfolio-desc .folio-info h5 {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: normal;
+            font-size: 10px;
+            margin: 10px 0 0 0;
+        }
+        nav#filter li {
+            display: inline-block;
+            margin: 0 0 23px 5px;
+        }
+    }
