@@ -77,6 +77,14 @@
     }
     
     @media (max-width: 480px) {
+        /* #filter {
+            margin: -4px;
+            padding: 1px;
+        } */
+        nav#filter li {
+            display: inline-block;
+            margin: 0 0 23px 5px;
+        }
         .banner-container {
             width: 100%;
             background-size: contain;

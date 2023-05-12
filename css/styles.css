@@ -365,7 +365,7 @@ a:hover {
 }
 
 .heading {
-    padding-bottom: 30px;
+    padding-bottom: 14px;
 }
 
 .heading p {
@@ -375,6 +375,18 @@ a:hover {
 .pdingBtm30 {
     margin-top: 80px;
     padding-bottom: 0px;
+}
+
+
+/* .link_btn {
+    border: 2px solid grey;
+} */
+
+#filter1 a {
+    padding: 4px 12px;
+    line-height: 20px;
+    border: 1px solid #80B421;
+    text-decoration: none;
 }
 
 
@@ -442,6 +454,7 @@ a:hover {
     display: block;
     margin: 0 0 0 15px;
     text-align: center;
+    color: rgb(82, 82, 82);
 }
 
 .team-member .contact a {
@@ -786,24 +799,38 @@ body {
     filter: brightness(0.9);
 }
 
-.mid {
-    /* height: 700px;
-    width: 330vh; */
-    left: 760px !important;
-    /* bottom: -1px !important; */
-    top: 72vh !important;
-}
 
-.mid h1 {
+/* .mid { */
+
+
+/***** height: 700px;
+    width: 330vh; *****/
+
+
+/* left: 760px !important; */
+
+
+/***** bottom: -1px !important; *****/
+
+
+/* top: 72vh !important;
+} */
+
+
+/* .mid h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: #ffffff;
-    /* height: 300px;
-    width: 120%; */
-    z-index: 1;
+    color: #ffffff; */
+
+
+/***** height: 300px;
+    width: 120%; *****/
+
+
+/* z-index: 1;
     background-color: rgba(0, 0, 0, 0.7);
     filter: brightness(0.8);
-}
+} */
 
 .right_cld {
     right: 0px !important;
