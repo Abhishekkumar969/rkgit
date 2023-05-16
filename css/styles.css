@@ -794,8 +794,18 @@ body {
     height: 20vh;
     position: absolute;
     left: 15vw;
-    top: -5vh;
+    top: 10vh;
     z-index: 0;
+    filter: brightness(0.9);
+}
+
+.logo img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 38vw;
+    top: 28vh;
+    z-index: 1;
     filter: brightness(0.9);
 }
 

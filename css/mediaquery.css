@@ -83,9 +83,24 @@
         }
     }
     
+    @media (max-width: 598px) {
+        .team-member h3 {
+            font-size: 15px !important;
+            line-height: 21px;
+            margin: 0px 0 0 15px;
+            text-align: center;
+        }
+    }
+    
     @media (max-width: 480px) {
-        #filter a {
-            font-size: 20px !important;
+        /* #filter a {
+            font-size: 20px !important; 
+        } */
+        .team-member h3 {
+            font-size: 11px !important;
+            line-height: 15px;
+            margin: 0px 0 0 15px;
+            text-align: center;
         }
         nav#filter li {
             display: inline-block;
@@ -127,7 +142,7 @@
             font-size: 3em;
         }
         .page-section h2 {
-            font-size: 2em;
+            font-size: 2em !important;
         }
         .page-section p {
             font-size: 1em;
@@ -162,9 +177,51 @@
             width: 33rem;
             font-size: 15px;
         }
+        /* .team-member h3 {
+            font-size: 13px !important;
+            line-height: 21px;
+            margin: 0px 0 0 15px;
+            text-align: center;
+        } */
     }
     
-    @media (max-width: 320px) {
+    @media (max-width: 360px) {
+        .team-member h3 {
+            font-size: 11px !important;
+            line-height: 21px;
+            margin: 0px 0 0 15px;
+            text-align: center;
+        }
+        .team-member h3 {
+            font-size: 9px !important;
+            line-height: 12px;
+            margin: 0px 0 0 15px;
+            text-align: center;
+        }
+        /* .team-member h3 {
+            font-size: 22px !important;
+            line-height: 32px;
+            margin: 10px 0 0 15px;
+            text-align: center;
+        } */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /* font-weight: 2rem; */
+            font-size: 11px !important;
+            line-height: 1.1;
+            color: white;
+        }
         #filter1 a {
             padding: 2px 1px;
             line-height: 20px;

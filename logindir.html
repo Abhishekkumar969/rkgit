@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/6e2f861f4c.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
+    <title>Login to Rkgit</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script>
+        function validatePassword() {
+            var password = document.getElementById("password").value;
+            if (password === "yourpassword") {
+                window.location.href = "dir.html";
+            } else {
+                document.getElementById("error-message").innerHTML = "Incorrect password. Please try again.";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Protection</h1>
+        <label for="password">Enter the password:</label>
+        <div class="box">
+            <input type="password" id="password">
+            <button class="btn" onclick="validatePassword()">Submit</button>
+            <p id="error-message"></p>
+        </div>
+</body>
+
+</html>
